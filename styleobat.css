@@ -132,60 +132,116 @@ p {
     width: 100%;
 }
 
-.contentBox{
-        font-family: courier; 
-        background: #c9dced;
-        border-radius: 8px;
-        box-shadow: 1px 2px 8px rgba (0,0,0,0.65);
-        height: 300px;
-        margin: 6rem auto 8.1rem auto;
-        width: 700px;
-        border: 1px solid;   
-        
-    }
-h1{
-    text-align: center;
-    padding: 25px;
-    font-family: courier;
-    font-weight: bold;
-    color: rgb(24, 22, 22);
-}
-.search-box-label-placeholder{
-    font-family: courier;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 30px;
-}
-.search-box-action{
+.tutor-list {
     width: 100%;
-    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'courier';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+.contentBox{
+    font-family: courier;
+    margin: auto;
+}
+h1{
+    margin: 10px 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2{
+    margin: 10px 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
 }
 .livesearch{
     width: 50%;
     padding: 15px 20px;
-    border: none;
+    border-style:solid;
     border-radius: 5px;
     font-weight: bold;
     margin-bottom: 40px;
 }
 .ddc-btn{
-    background-color: #3f72af;
-    width: 10%;
-    padding: 10px 10px;
-    border: none;
+    width: 60px;
+    height: 50px;
+    border-style:solid;
     border-radius: 5px;
-    text-align: center;
-    font-family: courier;
-    color: #FFFFFF;
     font-weight: bold;
+    margin-bottom: 40px;
 }
-.ddc-form-hint{
-    font-family: courier;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 30px;
+.ddc-sr-only{
+    text-align: left;
+}
+.ddc-icon-search{
+    align-items: flex-end;
+}
 
-}
+
+
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
@@ -231,6 +287,4 @@ h1{
     .kartu-partner {
         width: 50%;
     }
-    
-    
 }

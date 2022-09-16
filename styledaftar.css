@@ -22,7 +22,7 @@ label{
     background: #fbfbfb;
     border-radius: 8px;
     box-shadow: 1px 2px 8px rgba (0,0,0,0.65);
-    height: 410px;
+    height: 510px;
     margin: 6rem auto 8.1rem auto;
     width: 329px;
     border: 1px solid;
@@ -69,13 +69,16 @@ label{
 .form-border{
     height: 1px;
     width: 100%;
-    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+    background: -webkit-linear-gradient(right,#3498db,#3498db);
 }
 .form-content{
     background: #fbfbfb;
     border: none ;
     outline: none;
     padding-top: 14px;
+}
+.forgetpass{
+    padding: 10px;
 }
 .underline-title{
     background: -webkit-linear-gradient(right,#3498db,#9b59b6);
