@@ -37,6 +37,9 @@ label{
     padding-top: 13px;
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 #signup{
     color: #16a085;
     font-family: courier;
@@ -45,7 +48,7 @@ label{
     text-align: center;
 }
 #submit-btn{
-    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+    background-color: #3f72af;
     border-radius: 21px;
     border: none;
     box-shadow: 0px 1px 8px #ffff;

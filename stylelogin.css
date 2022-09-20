@@ -37,6 +37,9 @@ label{
     padding-top: 13px;
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 #signup{
     color: #16a085;
     font-family: courier;
