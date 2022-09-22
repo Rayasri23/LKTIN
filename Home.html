@@ -5,29 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MedChecker</title>
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+    crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <div class="wrapper">
-            <div class="logo"><a href='assets/img/logo.png'>MedChecker</a></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="Home.html">Beranda</a></li>
-                    <li><a href="obat.html">Obat A-Z</a></li>
-                    <li><a href="interaksi.html">Interaksi Obat</a></li>
-                    <li><div class="search-bar">
-                      <form class="search-form d-flex align-items-center" method="POST" action="#">
-                        <input type="text" class="searching" name="query" placeholder="Search" title="Enter search keyword">
-                        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-                      </form>
-                    </div>
-                  </li>
-                    <li><a href="login.html" class="tbl-biru">Masuk</a></li>
-                    <li><a href="daftar.html" class="tbl-biru">Daftar</a></li>
-                </ul>
-            </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="logo" href="assets/img/logo.png">MedChecker</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Home.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="obat.html">Obat A-Z</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="interaksi.html">Interaksi</a>
+              </li>
+            </ul>
+            <form class="search-form d-flex align-items-center" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">cari</button>
+            </form>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Masuk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="daftar.html">Daftar</a>
+              </li>
+          </div>
         </div>
-    </nav>
+      </nav>
+
     
 <div class="contentBox">
     <h1>Interaksi obat</h1>

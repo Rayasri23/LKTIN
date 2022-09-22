@@ -10,8 +10,8 @@ body {
     font-family: 'Open Sans',sans-serif;
 }
 
-.wrapper {
-    width: 1100px;
+.navbar {
+    
     margin: 3rem auto 1rem auto;
     position:relative;
 }
@@ -27,11 +27,11 @@ body {
 .menu {
     float: right;
 }
-.search-bar{
+.search-form{
     padding-left: 15px ;
     padding-right: 15px ;
 }
-.searching{
+.form-control{
     width: 100%;
     height: 35px;
     border-radius: 20px;
